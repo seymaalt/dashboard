@@ -1,0 +1,27 @@
+* {
+    font-family: 'PT Sans', sans-serif;
+  }
+
+.Navbar {
+    display: flex;
+    height: 90px;
+}
+  
+.avatar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 16px;
+}
+  
+.avatar {
+    width: 80px;
+    height: 80px;
+}
+  
+.logo {
+    max-width: 100%;
+    height: auto;
+    width: 15vw; 
+    height: 13vh; }
+  
