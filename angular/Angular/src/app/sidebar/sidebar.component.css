@@ -1,0 +1,32 @@
+/* sidebar.component.css */
+
+.sidebar {
+    position: fixed;
+    height: 100%;
+    width: 280px;
+    background-color: white;
+    padding-top: 20px;
+  
+  }
+  
+  .navbar-nav {
+    list-style-type: none;
+    padding: 0;
+  
+  }
+  
+  .nav-item {
+    margin-bottom: 10px;
+    
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    color:black;
+  }
+  
+
+  

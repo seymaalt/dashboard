@@ -1,0 +1,39 @@
+<div class="fixed inset-0 overflow-y-auto">
+    <div class="flex items-center justify-center min-h-screen">
+      <div class="fixed inset-0 bg-gray-500 opacity-75"></div>
+      <div class="bg-white rounded-lg shadow-xl p-8 z-50">
+        <h2 class="text-2xl mb-4">Modal Başlık</h2>
+        <div class="mb-4">
+            <label for="name" class="block mb-2 text-sm font-medium text-gray-900">Name</label>
+            <input type="text" id="name" [(ngModel)]="newUser.name" class="w-full p-2.5 border rounded" placeholder="Enter name">
+        </div>
+        <div class="mb-4">
+            <label for="email" class="block mb-2 text-sm font-medium text-gray-900">Email</label>
+            <input type="email" id="email" [(ngModel)]="newUser.email" class="w-full p-2.5 border rounded" placeholder="Enter email">
+        </div>
+        <div class="mb-4">
+            <label for="phone" class="block mb-2 text-sm font-medium text-gray-900">Phone</label>
+            <input type="tel" id="phone" [(ngModel)]="newUser.phone" class="w-full p-2.5 border rounded"  placeholder="Enter phone">
+        </div>
+        <div class="mb-4">
+            <label for="age" class="block mb-2 text-sm font-medium text-gray-900">Age</label>
+            <input type="number" id="age" [(ngModel)]="newUser.age" class="w-full p-2.5 border rounded" placeholder="Enter age">
+        </div>
+        <div class="mb-4">
+            <label for="post" class="block mb-2 text-sm font-medium text-gray-900">Post</label>
+            <input type="text" id="post" [(ngModel)]="newUser.post" class="w-full p-2.5 border rounded" placeholder="Enter post">
+        </div>
+        <div class="mb-4">
+            <label for="joiningDate" class="block mb-2 text-sm font-medium text-gray-900">Joining Date</label>
+            <input type="date" id="joiningDate" [(ngModel)]="newUser.joiningDate" class="w-full p-2.5 border rounded">
+        </div>
+        <div class="mb-4">
+            <label for="salary" class="block mb-2 text-sm font-medium text-gray-900">Salary</label>
+            <input type="number" id="salary" [(ngModel)]="newUser.salary" class="w-full p-2.5 border rounded" placeholder="Enter salary">
+        </div>
+
+        <button class="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" (click)="addUser()">Add</button>
+      </div>
+    </div>
+  </div>
+  
